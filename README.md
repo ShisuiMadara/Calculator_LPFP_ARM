@@ -9,7 +9,8 @@ It is smaller in size</li>
 </li>
 
 <h1>About this project</h1>
-The mantissa is 16 bits and the exponent term spans 15 bits. The operation performed under the name of addition and multipication but since the negetive number and fraction are also covered,
+<p>The mantissa is 16 bits and the exponent term spans 15 bits and 1 bit is a signed bit. Thus its different from conventional LPFP format which had smaller number of bits. </p>
+The operation performed under the name of addition and multipication but since the negetive number and fraction are also covered,
 the program works for substraction (addition of positive and negetive) and division (multiplication of integer and a fraction).
 The input is in normal hexadeciaml format which is converted to our defined format inside our code itself. 
 
